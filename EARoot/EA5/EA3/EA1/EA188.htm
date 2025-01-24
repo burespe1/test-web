@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Low Level FDFs::mt_NAP_metadata_mod_authorisation_request</title>
+<title>Low Level FDFs::tnap.cp-data_upload_result_report</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -64,12 +64,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> Low Level FDFs::mt_NAP_metadata_mod_authorisation_request </h1>
-			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
-			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
+			<h1> Low Level FDFs::tnap.cp-data_upload_result_report </h1>
+			<!-- <img class="header_image" src="../../../../images/Clipboard_01-08-2025_01.jpg" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/Clipboard_01-08-2025_01.jpg" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../EA3.htm">NAP Reference Architecture</a> / <a href="../../EA120.htm">NAP Functional View</a> / <a href="../EA151.htm">Functional Data Flows</a> / <a href="EA154.htm">Low Level FDFs</a> / <a href="EA188.htm">mt_NAP_metadata_mod_authorisation_request</a></p>
+			<p><a href="../../../EA3.htm">NAP Reference Architecture</a> / <a href="../../EA129.htm">NAP Functional View</a> / <a href="../EA160.htm">Functional Data Flows</a> / <a href="EA163.htm">Low Level FDFs</a> / <a href="EA188.htm">tnap.cp-data_upload_result_report</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -84,20 +84,20 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
-<a href="EA154.htm">Low Level FDFs</a></ul>
+<a href="EA163.htm">Low Level FDFs</a></ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">mt_NAP_metadata_mod_authorisation_request mt_NAP metadata mod authorisation request : Public abstract &lt;&lt;FRAME_Low_Level_Data_Flow&gt;&gt; FRAME_Low_Level_Data_Flow</span>
+	<span class="ObjectTitle">tnap.cp-data_upload_result_report tnap.cp-data upload result report : Public abstract &lt;&lt;FRAME_Low_Level_Data_Flow&gt;&gt; FRAME_Low_Level_Data_Flow</span>
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">30.09.2024 18:13:33</td>
+			<td width="85%" class="ObjectDetailsValue">30.08.2023 13:16:23</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14.01.2025 22:46:46</td>
+			<td class="ObjectDetailsValue">14.01.2025 22:46:45</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -142,14 +142,14 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{D4D31515-ABC4-468d-964E-F6D5D4F77136}</td>
+			<td class="ObjectDetailsValue">{A6E68B7A-7C94-474f-B168-C2A98537BC37}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA116.htm">NAP Functional View - Metadata Directory</a>, <a href="../../EA118.htm">NAP Functional View - Data Platform</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA127.htm">NAP Functional View - Data Platform</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">It contains data objects that provide credentials of a NAP Content Provider to be checked against the data stored in NAP Users data store to authorize the claimant to modify metadata records in the store of NAP Metadata. &lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">It contains outputs to the NAP Content Provider that have been created from data objects provided by functionality in the Manage Traffic Functional Area that are the response to a previous request for newly provided or updated traffic or travel data to be loaded into the store of NAP Data. The response can be either &#8220;successful&#8221; or &#8220;failed&#8221;, which must be accompanied by a reason for the &#8220;failure&#8221;. In case of invalid authorisation credentials, the Content Provider should be invited to (newly) register through the Manage NAP User Registrations and Provide Authorisation Service function. &lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -166,7 +166,7 @@
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../../EA7/EA3/EA276.htm">«FRAME_Physical_Data_Flow» PDF Metadata and User Management</a><br />
+						<a href="../../../EA7/EA3/EA279.htm">«FRAME_Physical_Data_Flow» PDF Data from Content Provider</a><br />
 						FRAME_Physical_Data_Flow «served by» 
 					</td>
 					<td width="30%" class="TableRow" valign="top">
@@ -180,8 +180,8 @@
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink485" /></button>Details:
-							<div id="detailsDIVLink485" class="DetailsDiv" >
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink443" /></button>Details:
+							<div id="detailsDIVLink443" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -189,8 +189,8 @@
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA1/EA1/EA133.htm">«FRAME_Low_Level_Function» F3.6.2 Manage Registrations and Provide Authorisation Service</a><br />
-						FRAME_Low_Level_Function «OUT» 
+						<a href="../../EA2/EA159.htm">«FRAME_Terminator» NAP Content Provider</a><br />
+						FRAME_Terminator «OUT» 
 					</td>
 					<td width="30%" class="TableRow" valign="top">
 						<strong>Name:</strong> &nbsp;<br />
@@ -203,31 +203,8 @@
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink486" /></button>Details:
-							<div id="detailsDIVLink486" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../../../EA1/EA31.htm">«FRAME_Data_Object» ID verification result</a><br />
-						DataType &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink487" /></button>Details:
-							<div id="detailsDIVLink487" class="DetailsDiv" >
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink444" /></button>Details:
+							<div id="detailsDIVLink444" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -245,7 +222,7 @@
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA1/EA1/EA134.htm">«FRAME_Low_Level_Function» F3.6.3 Manage Content Providers Metadata</a><br />
+						<a href="../../EA1/EA1/EA148.htm">«FRAME_Low_Level_Function» F3.6.8 Manage Data Input</a><br />
 						FRAME_Low_Level_Function «IN» 
 					</td>
 					<td width="30%" class="TableRow" valign="top">
@@ -259,8 +236,8 @@
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink488" /></button>Details:
-							<div id="detailsDIVLink488" class="DetailsDiv" >
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink445" /></button>Details:
+							<div id="detailsDIVLink445" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>

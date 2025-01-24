@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Low Level FDFs::tnap.cc-registration_response</title>
+<title>Low Level FDFs::mt_NAP_data_read_authorisation_response</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -64,12 +64,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> Low Level FDFs::tnap.cc-registration_response </h1>
-			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
-			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
+			<h1> Low Level FDFs::mt_NAP_data_read_authorisation_response </h1>
+			<!-- <img class="header_image" src="../../../../images/Clipboard_01-08-2025_01.jpg" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/Clipboard_01-08-2025_01.jpg" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../EA3.htm">NAP Reference Architecture</a> / <a href="../../EA120.htm">NAP Functional View</a> / <a href="../EA151.htm">Functional Data Flows</a> / <a href="EA154.htm">Low Level FDFs</a> / <a href="EA178.htm">tnap.cc-registration_response</a></p>
+			<p><a href="../../../EA3.htm">NAP Reference Architecture</a> / <a href="../../EA129.htm">NAP Functional View</a> / <a href="../EA160.htm">Functional Data Flows</a> / <a href="EA163.htm">Low Level FDFs</a> / <a href="EA178.htm">mt_NAP_data_read_authorisation_response</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -84,16 +84,16 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
-<a href="EA154.htm">Low Level FDFs</a></ul>
+<a href="EA163.htm">Low Level FDFs</a></ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">tnap.cc-registration_response tnap.cc-registration response : Public abstract &lt;&lt;FRAME_Low_Level_Data_Flow&gt;&gt; FRAME_Low_Level_Data_Flow</span>
+	<span class="ObjectTitle">mt_NAP_data_read_authorisation_response mt_NAP data read authorisation response : Public abstract &lt;&lt;FRAME_Low_Level_Data_Flow&gt;&gt; FRAME_Low_Level_Data_Flow</span>
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">30.08.2023 13:01:41</td>
+			<td width="85%" class="ObjectDetailsValue">30.08.2023 13:41:22</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
@@ -142,14 +142,14 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{60E6A67C-C9D0-464b-900F-9F28DC71E886}</td>
+			<td class="ObjectDetailsValue">{C050FEDE-4276-4730-8B5C-0F605084BE69}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA116.htm">NAP Functional View - Metadata Directory</a>, <a href="../../EA118.htm">NAP Functional View - Data Platform</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA127.htm">NAP Functional View - Data Platform</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">It contains outputs to the NAP Content Consumer that have been created from data objects provided by functionality in the Manage Traffic Functional Area that are the response (&#8220;acceptance&#8221; or &#8220;rejection&#8221;) to a previous registration request from a NAP Content Consumer. In case of a successful registration, it includes credentials for the Content Consumer to prove its authorisation to access NAP functionality that needs authorisation. Also based on the successful request it contains data of the registered NAP Content Consumer. &lt;br/&gt;&lt;br/&gt;===========&#160;&#160;&lt;br/&gt;TODO:&#160;&#160;&lt;br/&gt;- investigate sequence diagram and how credentials are passed, it also shall contain CC data&#160;&#160;&lt;br/&gt;&lt;br/&gt;- how do I log in as CC to change data already there? And also how do I display them?&#160;&#160;&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">It contains data objects that provide information about the validity of the authorisation credentials of a NAP Content Consumer or Data Requesting System that authorize the claimant to read data records from the store of NAP Data.&#160;&#160;&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -166,30 +166,7 @@
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA2/EA149.htm">«FRAME_Terminator» NAP Content Consumer</a><br />
-						FRAME_Terminator «OUT» 
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink440" /></button>Details:
-							<div id="detailsDIVLink440" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../../../EA7/EA3/EA268.htm">«FRAME_Physical_Data_Flow» Content Consumer Authorization and Registration</a><br />
+						<a href="../../../EA7/EA3/EA292.htm">«FRAME_Physical_Data_Flow» PDF User and Data Management</a><br />
 						FRAME_Physical_Data_Flow «served by» 
 					</td>
 					<td width="30%" class="TableRow" valign="top">
@@ -203,8 +180,31 @@
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink441" /></button>Details:
-							<div id="detailsDIVLink441" class="DetailsDiv" >
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink416" /></button>Details:
+							<div id="detailsDIVLink416" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA1/EA1/EA149.htm">«FRAME_Low_Level_Function» F3.6.9 Manage NAP Data Retrieval</a><br />
+						FRAME_Low_Level_Function «OUT» 
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink417" /></button>Details:
+							<div id="detailsDIVLink417" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -222,7 +222,7 @@
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA1/EA1/EA133.htm">«FRAME_Low_Level_Function» F3.6.2 Manage Registrations and Provide Authorisation Service</a><br />
+						<a href="../../EA1/EA1/EA142.htm">«FRAME_Low_Level_Function» F3.6.2 Manage Registrations and Provide Authorisation Service</a><br />
 						FRAME_Low_Level_Function «IN» 
 					</td>
 					<td width="30%" class="TableRow" valign="top">
@@ -236,8 +236,8 @@
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink442" /></button>Details:
-							<div id="detailsDIVLink442" class="DetailsDiv" >
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink418" /></button>Details:
+							<div id="detailsDIVLink418" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>

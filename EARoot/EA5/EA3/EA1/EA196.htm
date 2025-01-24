@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Low Level FDFs::mt_read_NAP_user_data</title>
+<title>Low Level FDFs::fnap.cp-support_request</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -64,12 +64,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> Low Level FDFs::mt_read_NAP_user_data </h1>
-			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
-			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
+			<h1> Low Level FDFs::fnap.cp-support_request </h1>
+			<!-- <img class="header_image" src="../../../../images/Clipboard_01-08-2025_01.jpg" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/Clipboard_01-08-2025_01.jpg" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../EA3.htm">NAP Reference Architecture</a> / <a href="../../EA120.htm">NAP Functional View</a> / <a href="../EA151.htm">Functional Data Flows</a> / <a href="EA154.htm">Low Level FDFs</a> / <a href="EA196.htm">mt_read_NAP_user_data</a></p>
+			<p><a href="../../../EA3.htm">NAP Reference Architecture</a> / <a href="../../EA129.htm">NAP Functional View</a> / <a href="../EA160.htm">Functional Data Flows</a> / <a href="EA163.htm">Low Level FDFs</a> / <a href="EA196.htm">fnap.cp-support_request</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -84,16 +84,16 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
-<a href="EA154.htm">Low Level FDFs</a></ul>
+<a href="EA163.htm">Low Level FDFs</a></ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">mt_read_NAP_user_data mt_read NAP user data : Public abstract &lt;&lt;FRAME_Low_Level_Data_Flow&gt;&gt; FRAME_Low_Level_Data_Flow</span>
+	<span class="ObjectTitle">fnap.cp-support_request fnap.cp-support request : Public abstract &lt;&lt;FRAME_Low_Level_Data_Flow&gt;&gt; FRAME_Low_Level_Data_Flow</span>
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">30.09.2024 18:22:49</td>
+			<td width="85%" class="ObjectDetailsValue">30.09.2024 17:45:44</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
@@ -118,7 +118,7 @@
 		</tr>
 		<tr id="proj03" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
-			<td class="ObjectDetailsValue">Proposed</td>
+			<td class="ObjectDetailsValue">Validated</td>
 		</tr>
 		<tr id="proj04" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
@@ -142,21 +142,21 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{6D08A3DC-FB6E-47d7-B1BF-B68208337A4F}</td>
+			<td class="ObjectDetailsValue">{1ED4DEC1-3019-4933-A419-5FE60CC29FF4}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA116.htm">NAP Functional View - Metadata Directory</a>, <a href="../../EA118.htm">NAP Functional View - Data Platform</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA125.htm">NAP Functional View - Metadata Directory</a>, <a href="../../EA127.htm">NAP Functional View - Data Platform</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">It contains data objects that provide data that has been read from the store of NAP Users, following a previous request for data to be retrieved.&#160;&#160;The data that is to be read from the store will be information about a registered NAP User, or a &quot;no data&quot; found response.&#160;&#160;(Details of the type of information about the NAP Users that is available will be found in the description of the store of their data). &lt;br/&gt;&lt;br/&gt;========== &lt;br/&gt;TODO::&#160;&#160;&lt;br/&gt;&lt;br/&gt;- decide where the credential is passed &lt;br/&gt;- NAP User must be specified &lt;br/&gt;- IMPORTANT: check what this dataflow should do and what it provides to the function F3.6.2 &lt;br/&gt;- IMPORTANT: populate datastore with information about users to be stored there (also logs) &lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">It consists of inputs from the NAP Content Provider containing data objects that provide a request for support describing an issue the NAP User have and to which the NAP Operator shall respond. The data objects are used by functionality in the Manage Traffic Functional Area. &lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent != null ? parent.toggleItem('AssociationsTo') : toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
 			<li onClick="parent != null ? parent.toggleItem('AssociationsFrom') : toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
-			<li onClick="parent != null ? parent.toggleItem('TaggedVal') : toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent != null ? parent.toggleItem('CustomProperties') : toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent != null ? parent.toggleItem('Links') : toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
 		<div class="ItemBody" id="AssociationsToTable">
 			<table class="Table ea_table">
@@ -167,8 +167,8 @@
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA1/EA1/EA133.htm">«FRAME_Low_Level_Function» F3.6.2 Manage Registrations and Provide Authorisation Service</a><br />
-						FRAME_Low_Level_Function «OUT» 
+						<a href="../../../EA7/EA3/EA291.htm">«FRAME_Physical_Data_Flow» PDF Support of Content Provider</a><br />
+						FRAME_Physical_Data_Flow «served by» 
 					</td>
 					<td width="30%" class="TableRow" valign="top">
 						<strong>Name:</strong> &nbsp;<br />
@@ -181,8 +181,54 @@
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink511" /></button>Details:
-							<div id="detailsDIVLink511" class="DetailsDiv" >
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink479" /></button>Details:
+							<div id="detailsDIVLink479" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA1/EA1/EA145.htm">«FRAME_Low_Level_Function» F3.6.5 Provide NAP User Support</a><br />
+						FRAME_Low_Level_Function «IN» 
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink480" /></button>Details:
+							<div id="detailsDIVLink480" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA1/EA2/EA151.htm">«FRAME_High_Level_Function» F3.6 Operate National Access Point</a><br />
+						FRAME_High_Level_Function «IN» 
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink481" /></button>Details:
+							<div id="detailsDIVLink481" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -200,8 +246,8 @@
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA4/EA213.htm">«FRAME_Datastore» D3.17 NAP Users</a><br />
-						FRAME_Datastore «OUT» 
+						<a href="../EA2/EA213.htm">«FRAME_High_Level_Data_Flow» fnap-mt_inputs</a><br />
+						FRAME_High_Level_Data_Flow «Componentof» 
 					</td>
 					<td width="30%" class="TableRow" valign="top">
 						<strong>Name:</strong> &nbsp;<br />
@@ -214,8 +260,54 @@
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink512" /></button>Details:
-							<div id="detailsDIVLink512" class="DetailsDiv" >
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink482" /></button>Details:
+							<div id="detailsDIVLink482" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA2/EA213.htm">«FRAME_High_Level_Data_Flow» fnap-mt_inputs</a><br />
+						FRAME_High_Level_Data_Flow «Componentof» 
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink483" /></button>Details:
+							<div id="detailsDIVLink483" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA2/EA159.htm">«FRAME_Terminator» NAP Content Provider</a><br />
+						FRAME_Terminator «IN» 
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink484" /></button>Details:
+							<div id="detailsDIVLink484" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -224,24 +316,7 @@
 
 			</table>
 		</div>
-<div class="ItemBody" id="TaggedValTable">
-	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
-		<tr>
-			<td width="50%" class="TableHeading">Tag</td>
-			<td width="50%" class="TableHeading">Value</td>
-		</tr>
-					<tr>
-				<td width="50%" class="TableRow" valign="top">status</td>
-				<td width="50%" class="TableRow" valign="top">copy</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					Details:
-						&nbsp;
-				</td>
-			</tr>
-	</table>
-</div>		<div class="ItemBody" id="CustomPropertiesTable">
+		<div class="ItemBody" id="CustomPropertiesTable">
 			<table class="Table ea_table">
 				<tr>
 					<td width="30%" class="TableHeading">Property</td>
@@ -254,7 +329,26 @@
 
 
 			</table>
-		</div>	</div>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../EA1/EA1/EA53.htm">«FRAME_Information_Object» support Ticket Content Provider</a></td>
+					<td width="10%" class="TableRow" valign="top">FRAME_Information_Object</td>
+					<td width="10%" class="TableRow" valign="top">Usage</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
  </div>
  </td>
 				</tr>

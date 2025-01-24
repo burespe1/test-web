@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>NAP Organisational View</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> NAP Organisational View </h1>
+			<!-- <img class="header_image" src="../../images/Clipboard_01-08-2025_01.jpg" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../images/Clipboard_01-08-2025_01.jpg" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../EA3.htm">NAP Reference Architecture</a> / <a href="EA225.htm">NAP Organisational View</a> / <a href="EA223.htm">NAP Organisational View</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../images/4.png" alt="Package"/> <a href="./EA1/EA229.htm">Actors</a></li>
+<li><img src="../../images/4.png" alt="Package"/> <a href="./EA2/EA238.htm">Agreements</a></li>
+<li><img src="../../images/4.png" alt="Package"/> <a href="./EA3/EA249.htm">Roles</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA223.htm">NAP Organisational View</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA224.png" usemap="#EA224" border="0" />
+
+<MAP NAME="EA224">
+<area shape="rect" coords="5670,858,6210,1278" href="./EA1/EA237.htm" target="_self">
+<area shape="rect" coords="4368,3504,4908,3924" href="./EA1/EA236.htm" target="_self">
+<area shape="rect" coords="2604,354,3144,774" href="./EA1/EA233.htm" target="_self">
+<area shape="rect" coords="312,846,852,1266" href="./EA1/EA232.htm" target="_self">
+<area shape="rect" coords="1578,2136,2118,2556" href="./EA1/EA231.htm" target="_self">
+<area shape="rect" coords="2382,3882,2922,4302" href="./EA1/EA230.htm" target="_self">
+<area shape="rect" coords="612,1878,1332,2358" href="./EA2/EA242.htm" target="_self">
+<area shape="rect" coords="2292,1722,3012,2202" href="./EA2/EA243.htm" target="_self">
+<area shape="rect" coords="3636,666,4356,1146" href="./EA2/EA246.htm" target="_self">
+<area shape="rect" coords="4578,1272,5394,1818" href="./EA2/EA239.htm" target="_self">
+<area shape="rect" coords="4800,474,5340,894" href="./EA3/EA256.htm" target="_self">
+<area shape="rect" coords="3462,1488,4182,1968" href="./EA2/EA247.htm" target="_self">
+<area shape="rect" coords="1332,354,1872,774" href="./EA3/EA250.htm" target="_self">
+<area shape="rect" coords="2556,1002,3096,1422" href="./EA3/EA251.htm" target="_self">
+<area shape="rect" coords="1536,1182,2148,1590" href="./EA2/EA241.htm" target="_self">
+<area shape="rect" coords="1398,2952,2118,3432" href="./EA2/EA240.htm" target="_self">
+<area shape="rect" coords="738,3600,1278,4020" href="./EA3/EA252.htm" target="_self">
+<area shape="rect" coords="2430,2682,2970,3102" href="./EA3/EA253.htm" target="_self">
+<area shape="rect" coords="3174,3264,3984,3804" href="./EA2/EA248.htm" target="_self">
+<area shape="rect" coords="3258,2256,3894,2682" href="./EA2/EA245.htm" target="_self">
+<area shape="rect" coords="5382,2640,6090,3114" href="./EA2/EA244.htm" target="_self">
+<area shape="rect" coords="4368,2160,5088,2640" href="./EA3/EA255.htm" target="_self">
+<area shape="rect" coords="5490,3534,6090,3894" href="./EA3/EA254.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">NAP Organisational View : FRAME_Diagram diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">20.11.2020 8:01:48</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">16.01.2025 11:39:21</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">NAPCORE WG2</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.5.1</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{57D36614-A861-4aeb-8D07-84BB90CFFE58}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">&lt;b&gt;ITS Actor, Actor&lt;/b&gt;	part of an ITS value-added chain/network and is directly involved in value creation. It contributes to the added value of ITS benefits by using its ITS capabilities as part of its activities. It usually also represents the interests of ITS stakeholders who are not directly involved in the ITS value chain but have strong associated interests. The ITS end-user is also considered a special ITS actor.&lt;br/&gt;&lt;b&gt;ITS Role, Role&lt;/b&gt;	Defines and describes responsibilities, tasks, and capabilities that are typical and necessary for the value creation of ITS services. Is taken by ITS actors and stakeholders depending on the requirements of the ITS service to be implemented. A single ITS actor or stakeholder can occupy one or more ITS roles.&lt;br/&gt;&lt;b&gt;ITS Agreement, Agreement&lt;/b&gt;	Contractual or lawful relationship between two roles, that defines obligations/responsibilities of the roles to each other and also the obligations/responsibilities of the roles in this relationship to other roles. The Agreement could take the form of a European or national legislative document, memorandum of understanding, contract, license, or terms and conditions.&lt;br/&gt;&lt;b&gt;Content Provider (Data Holder)&lt;/b&gt;	any stakeholder that is required by the delegated regulations to provide data/information or services to the Content Consumers via NAP. It includes the Data Holder term as it is defined in MMTIS and RTTI regulations. For more information see the explanation in the Content Provider role.&lt;br/&gt;&lt;b&gt;Content Consumer (Data User)&lt;/b&gt;	any stakeholder that is specified by the delegated regulations explicitly as the user of the data/services made available by Content Providers via NAP. It includes the Data User term as it is specified in MMTIS and RTTI regulations. For more information see the explanation in the Content Consumer role.&lt;br/&gt;&lt;b&gt;EA GUID&lt;/b&gt;	Enterprise Architect unique identifier, uniquely identifying the object within the model.&lt;br/&gt;&lt;br/&gt;NOTE: description of the roles and agreements are provided within the document&lt;br/&gt;</div>
+
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+
